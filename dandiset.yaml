@@ -31,9 +31,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 48806967172
-  numberOfFiles: 28
-  numberOfSubjects: 28
+  numberOfBytes: 50649562903
+  numberOfFiles: 29
+  numberOfSubjects: 29
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -50,8 +50,8 @@ assetsSummary:
   - LFP
   - OptogeneticSeries
 citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2024) Large-scale
-  recordings of head-direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000939/draft
+  recordings of head-direction cells in mouse postsubiculum (Version 0.240327.2229)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000939/0.240327.2229
 contributor:
 - affiliation: []
   email: a.j.duszkiewicz@gmail.com
@@ -96,6 +96,7 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. \n\nFull dataset in Matlab
   format (including ADN recordings) and code to reproduce figures in the article can
   be found at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+doi: 10.48324/dandi.000939/0.240327.2229
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -103,7 +104,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.240327.2229
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -116,7 +117,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.240327.2229/assets.yaml
 name: Large-scale recordings of head-direction cells in mouse postsubiculum
 protocol: []
 publishedBy:
@@ -137,6 +138,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.240327.2229
+version: 0.240327.2229
 wasGeneratedBy: []

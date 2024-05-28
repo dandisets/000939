@@ -8,9 +8,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   - name: optogenetic approach
     schemaKey: ApproachType
@@ -19,36 +19,36 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 50649516399
-  numberOfFiles: 29
-  numberOfSubjects: 29
+  numberOfBytes: 54772596116
+  numberOfFiles: 31
+  numberOfSubjects: 31
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectricalSeries
-  - Position
   - CompassDirection
   - ProcessingModule
   - SpatialSeries
-  - Units
-  - ElectrodeGroup
+  - ElectricalSeries
+  - Position
   - LFP
   - OptogeneticSeries
+  - Units
+  - ElectrodeGroup
 citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2024) Large-scale
   recordings of head-direction cells in mouse postsubiculum (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000939/draft
@@ -83,19 +83,20 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
-datePublished: '2024-03-27T22:29:44.021673+00:00'
+datePublished: '2024-05-28T15:42:26.333847+00:00'
 description: "64-channel linear probe recordings from mouse postsubiculum (dorsal
   presubiculum) - a region in which most excitatory cells are narrowly tuned to the
-  animal's head-direction.  Dataset (upload in progress) includes one recording session
-  per mouse (N = 31 mice, 42 - 185 units per recording). All sessions include a square
-  open field exploration epoch and two sleep epochs. Some sessions additionally include
-  a triangular open field epoch or an optogenetic stimulation epoch. \n\nEach NWB
-  file contains: timestamps of detected units, mean waveforms, LFP,  animal position
-  and head-direction,  sleep scoring (REM/NREM), accelerometer data. \n\nData used
-  in Duszkiewicz et al, 2024 (DOI: 10.1038/s41593-024-01588-5). Collected by Adrian
-  J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. \n\nFull dataset in Matlab
-  format (including ADN recordings) and code to reproduce figures in the article can
-  be found at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+  animal's head-direction.  Dataset includes one recording session per mouse (N =
+  31 mice, 42 - 185 units per recording). All sessions include a square open field
+  exploration epoch and two sleep epochs. Some sessions additionally include a triangular
+  open field epoch or an optogenetic stimulation epoch. \n\nEach NWB file contains:
+  timestamps of detected units, mean waveforms, LFP,  animal position and head-direction,
+  \ sleep scoring (REM/NREM), accelerometer data. \n\nMetadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing\n\nData
+  used in Duszkiewicz et al, 2024 (DOI: 10.1038/s41593-024-01588-5). Collected by
+  Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. Additional adjustment
+  of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version of the dataset
+  used in the article (including ADN recordings) and code to reproduce figures can
+  be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -120,13 +121,13 @@ manifestLocation:
 name: Large-scale recordings of head-direction cells in mouse postsubiculum
 protocol: []
 publishedBy:
-  endDate: '2024-03-27T22:29:44.021673+00:00'
-  id: urn:uuid:183b8b9a-4f43-4c27-81e7-f4660168b2f4
+  endDate: '2024-05-28T15:42:26.333847+00:00'
+  id: urn:uuid:bbeaa500-9746-4496-a076-44bc762b5216
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-03-27T22:29:44.021673+00:00'
+  startDate: '2024-05-28T15:42:26.333847+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:2a27a730-4dcd-4715-ae6c-7785a0a3670d
+  - id: urn:uuid:9e644628-bb74-4d45-8f2e-ea50bae740c8
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software

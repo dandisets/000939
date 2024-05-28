@@ -50,8 +50,8 @@ assetsSummary:
   - Units
   - ElectrodeGroup
 citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2024) Large-scale
-  recordings of head-direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000939/draft
+  recordings of head-direction cells in mouse postsubiculum (Version 0.240528.1542)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000939/0.240528.1542
 contributor:
 - affiliation: []
   email: a.j.duszkiewicz@gmail.com
@@ -97,6 +97,7 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version of the dataset
   used in the article (including ADN recordings) and code to reproduce figures can
   be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+doi: 10.48324/dandi.000939/0.240528.1542
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -104,7 +105,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.240528.1542
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -117,7 +118,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.240528.1542/assets.yaml
 name: Large-scale recordings of head-direction cells in mouse postsubiculum
 protocol: []
 publishedBy:
@@ -138,6 +139,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.240528.1542
+version: 0.240528.1542
 wasGeneratedBy: []

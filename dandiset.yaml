@@ -50,9 +50,9 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ElectrodeGroup
-citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2024) Large-scale
-  recordings of head-direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000939/draft
+citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2025) Large-scale
+  recordings of head direction cells in mouse postsubiculum (Version 0.250207.0025)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000939/0.250207.0025
 contributor:
 - affiliation: []
   email: a.j.duszkiewicz@gmail.com
@@ -84,10 +84,10 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
-datePublished: '2024-05-28T15:42:26.333847+00:00'
+datePublished: '2025-02-07T00:25:44.341744+00:00'
 description: "64-channel linear probe recordings from mouse postsubiculum (dorsal
   presubiculum) - a region in which most excitatory cells are narrowly tuned to the
-  animal's head-direction.  Dataset includes one recording session per mouse (N =
+  animal's head direction.  Dataset includes one recording session per mouse (N =
   31 mice, 42 - 185 units per recording). All sessions include a square open field
   exploration epoch and two sleep epochs. Some sessions additionally include a triangular
   open field epoch or an optogenetic stimulation epoch. \n\nEach NWB file contains:
@@ -98,6 +98,7 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   adjustment of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version
   of the dataset used in the article (including ADN recordings) and code to reproduce
   figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+doi: 10.48324/dandi.000939/0.250207.0025
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -105,7 +106,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.250207.0025
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -118,17 +119,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
-name: Large-scale recordings of head-direction cells in mouse postsubiculum
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.250207.0025/assets.yaml
+name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
 publishedBy:
-  endDate: '2024-05-28T15:42:26.333847+00:00'
-  id: urn:uuid:bbeaa500-9746-4496-a076-44bc762b5216
+  endDate: '2025-02-07T00:25:44.341744+00:00'
+  id: urn:uuid:09626be5-ef1f-4cd0-9dc8-dbe9dbc33570
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-05-28T15:42:26.333847+00:00'
+  startDate: '2025-02-07T00:25:44.341744+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:9e644628-bb74-4d45-8f2e-ea50bae740c8
+  - id: urn:uuid:9bba6ae5-8363-4bba-844c-8bb44d63036a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -139,6 +140,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.250207.0025
+version: 0.250207.0025
 wasGeneratedBy: []

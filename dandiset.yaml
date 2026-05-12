@@ -51,8 +51,8 @@ assetsSummary:
   - Position
   - ElectricalSeries
 citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2026) Large-scale
-  recordings of head direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/000939/draft
+  recordings of head direction cells in mouse postsubiculum (Version 0.260512.1701)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000939/0.260512.1701
 contributor:
 - affiliation: []
   email: a.j.duszkiewicz@gmail.com
@@ -84,6 +84,7 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
+datePublished: '2026-05-12T17:01:36.123248+00:00'
 description: "64-channel linear probe recordings from mouse postsubiculum (dorsal
   presubiculum) - a region in which most excitatory cells are narrowly tuned to the
   animal's head direction.  Dataset includes one recording session per mouse (N =
@@ -99,6 +100,7 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n
   \nUpdate 12th May 2026:\n- Raw electrophysiological recordings added \n- Unit ID
   added \n- Fixed indexing of sleep scoring epochs\n"
+doi: 10.48324/dandi.000939/0.260512.1701
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -106,7 +108,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.260512.1701
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -119,15 +121,27 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.260512.1701/assets.yaml
 name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
+publishedBy:
+  endDate: '2026-05-12T17:01:36.123248+00:00'
+  id: urn:uuid:468c18ae-9908-420c-8743-da6d617a1b41
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-12T17:01:36.123248+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e8d11365-9f6b-47b0-8515-6fd152bd03cf
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.260512.1701
+version: 0.260512.1701
 wasGeneratedBy: []

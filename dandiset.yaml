@@ -32,8 +32,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 716842611981
-  numberOfFiles: 59
+  numberOfBytes: 786133732098
+  numberOfFiles: 62
   numberOfSubjects: 31
   schemaKey: AssetsSummary
   species:
@@ -50,9 +50,9 @@ assetsSummary:
   - OptogeneticSeries
   - Units
   - ElectrodeGroup
-citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2025) Large-scale
-  recordings of head direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/000939/draft
+citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2026) Large-scale
+  recordings of head direction cells in mouse postsubiculum (Version 0.260512.1611)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000939/0.260512.1611
 contributor:
 - affiliation: []
   email: a.j.duszkiewicz@gmail.com
@@ -84,7 +84,7 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
-datePublished: '2025-02-07T00:25:44.341744+00:00'
+datePublished: '2026-05-12T16:11:07.486760+00:00'
 description: "64-channel linear probe recordings from mouse postsubiculum (dorsal
   presubiculum) - a region in which most excitatory cells are narrowly tuned to the
   animal's head direction.  Dataset includes one recording session per mouse (N =
@@ -97,7 +97,10 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   by Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. Additional
   adjustment of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version
   of the dataset used in the article (including ADN recordings) and code to reproduce
-  figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+  figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n
+  \nUpdate 12th May 2026:\n- Raw electrophysiological recordings added \n- Unit ID
+  added \n- Fixed indexing of sleep scoring epochs\n"
+doi: 10.48324/dandi.000939/0.260512.1611
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -105,7 +108,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.260512.1611
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -118,17 +121,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.260512.1611/assets.yaml
 name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
 publishedBy:
-  endDate: '2025-02-07T00:25:44.341744+00:00'
-  id: urn:uuid:09626be5-ef1f-4cd0-9dc8-dbe9dbc33570
+  endDate: '2026-05-12T16:11:07.486760+00:00'
+  id: urn:uuid:7dcbd7c5-20bc-44ac-b59d-72c64760a19d
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-02-07T00:25:44.341744+00:00'
+  startDate: '2026-05-12T16:11:07.486760+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:9bba6ae5-8363-4bba-844c-8bb44d63036a
+  - id: urn:uuid:0e345fef-50ea-4cec-aff0-71951165510e
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -139,6 +142,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.260512.1611
+version: 0.260512.1611
 wasGeneratedBy: []

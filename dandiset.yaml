@@ -20,20 +20,20 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
+  - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 716842611981
-  numberOfFiles: 59
+  numberOfBytes: 731361135982
+  numberOfFiles: 31
   numberOfSubjects: 31
   schemaKey: AssetsSummary
   species:
@@ -41,16 +41,16 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - CompassDirection
-  - ProcessingModule
-  - SpatialSeries
-  - ElectricalSeries
-  - Position
   - LFP
   - OptogeneticSeries
-  - Units
+  - SpatialSeries
   - ElectrodeGroup
-citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2025) Large-scale
+  - CompassDirection
+  - Units
+  - ProcessingModule
+  - Position
+  - ElectricalSeries
+citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2026) Large-scale
   recordings of head direction cells in mouse postsubiculum (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/000939/draft
 contributor:
@@ -84,7 +84,6 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
-datePublished: '2025-02-07T00:25:44.341744+00:00'
 description: "64-channel linear probe recordings from mouse postsubiculum (dorsal
   presubiculum) - a region in which most excitatory cells are narrowly tuned to the
   animal's head direction.  Dataset includes one recording session per mouse (N =
@@ -97,7 +96,9 @@ description: "64-channel linear probe recordings from mouse postsubiculum (dorsa
   by Adrian J. Duszkiewicz and Sofia Skromne Carrasco in Peyrache lab. Additional
   adjustment of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version
   of the dataset used in the article (including ADN recordings) and code to reproduce
-  figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n"
+  figures can be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n
+  \nUpdate 12th May 2026:\n- Raw electrophysiological recordings added \n- Unit ID
+  added \n- Fixed indexing of sleep scoring epochs\n"
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -121,18 +122,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
 name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
-publishedBy:
-  endDate: '2025-02-07T00:25:44.341744+00:00'
-  id: urn:uuid:09626be5-ef1f-4cd0-9dc8-dbe9dbc33570
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-02-07T00:25:44.341744+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:9bba6ae5-8363-4bba-844c-8bb44d63036a
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset

@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.6/context.json
-about: []
+about:
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_1037
+  name: Postsubiculum
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -54,23 +57,42 @@ citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2026) 
   recordings of head direction cells in mouse postsubiculum (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/000939/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01pxwe438
+    name: McGill University
+    schemaKey: Affiliation
   email: a.j.duszkiewicz@gmail.com
+  identifier: 0000-0001-5381-4663
   includeInCitation: true
   name: Duszkiewicz, Adrian
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
-- email: sofia.skromnecarrasco@mail.mcgill.ca
+- affiliation:
+  - identifier: https://ror.org/01pxwe438
+    name: McGill University
+    schemaKey: Affiliation
+  email: sofia.skromnecarrasco@mail.mcgill.ca
+  identifier: 0009-0007-2288-7203
   includeInCitation: true
   name: Skromne Carrasco, Sofia
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- email: adrien.peyrache@mcgill.ca
+- affiliation:
+  - identifier: https://ror.org/01pxwe438
+    name: McGill University
+    schemaKey: Affiliation
+  email: adrien.peyrache@mcgill.ca
+  identifier: 0000-0001-9708-309X
   includeInCitation: true
   name: Peyrache, Adrien
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- identifier: https://ror.org/029chgv08
+- awardNumber: 206491/Z/17/Z
+  identifier: https://ror.org/029chgv08
   includeInCitation: false
   name: Wellcome Trust
   roleName:
@@ -122,7 +144,14 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
 name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: doi:10.1038/s41593-024-01588-5
+  name: Local origin of excitatory–inhibitory tuning equivalence in a cortical network
+  relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1038/s41593-024-01588-5
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.6

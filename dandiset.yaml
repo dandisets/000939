@@ -57,8 +57,8 @@ assetsSummary:
   - Position
   - ElectricalSeries
 citation: Duszkiewicz, Adrian; Skromne Carrasco, Sofia; Peyrache, Adrien (2026) Large-scale
-  recordings of head direction cells in mouse postsubiculum (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/000939/draft
+  recordings of head direction cells in mouse postsubiculum (Version 0.261016.2310)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000939/0.261016.2310
 contributor:
 - affiliation:
   - identifier: https://ror.org/01pxwe438
@@ -109,6 +109,7 @@ contributor:
   name: University of Edinburgh
   schemaKey: Organization
 dateCreated: '2024-03-14T00:26:27.286667+00:00'
+datePublished: '2026-10-16T23:10:44.573133+00:00'
 description: "Electrophysiological recordings from mouse postsubiculum (dorsal presubiculum)
   - a cortical region in which most excitatory cells are head-direction cells. Data
   collected using 64-channel linear probes (H5, Cambridge Neurotech).\n\nDataset includes
@@ -125,6 +126,7 @@ description: "Electrophysiological recordings from mouse postsubiculum (dorsal p
   be found in Matlab format at:\nhttps://doi.org/10.6084/m9.figshare.24921252\n\n
   Update 12th May 2026:\n- Raw electrophysiological recordings added \n- Unit ID added
   \n- Fixed indexing of sleep scoring epochs"
+doi: 10.48324/dandi.000939/0.261016.2310
 ethicsApproval:
 - contactPoint:
     email: acc.mni@mcgill.ca
@@ -132,7 +134,7 @@ ethicsApproval:
     url: https://www.mcgill.ca/neuro/research/animal-care-committee
   identifier: MNI- 7839
   schemaKey: EthicsApproval
-id: DANDI:000939/draft
+id: DANDI:000939/0.261016.2310
 identifier: DANDI:000939
 keywords:
 - head-direction
@@ -145,9 +147,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000939/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000939/0.261016.2310/assets.yaml
 name: Large-scale recordings of head direction cells in mouse postsubiculum
 protocol: []
+publishedBy:
+  endDate: '2026-10-16T23:10:44.573133+00:00'
+  id: urn:uuid:a29ddff4-64f5-4e06-86a5-9b356e204f6a
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-16T23:10:44.573133+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:65d3f084-6fbf-4bb4-ba1c-ef1867807cf6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1038/s41593-024-01588-5
   name: Local origin of excitatory–inhibitory tuning equivalence in a cortical network
@@ -161,6 +175,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.6
 studyTarget:
 - 'Functional characterization of cell populations in mouse postsubiculum '
-url: https://dandiarchive.org/dandiset/000939/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000939/0.261016.2310
+version: 0.261016.2310
 wasGeneratedBy: []

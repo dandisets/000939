@@ -115,10 +115,9 @@ description: "Electrophysiological recordings from mouse postsubiculum (dorsal p
   one recording session per mouse (N = 31 mice, 42 - 185 units per recording). All
   sessions include a square open field exploration epoch and two sleep epochs. Some
   sessions additionally include a triangular open field epoch or an optogenetic stimulation
-  epoch. \n\nThere are two versions of each session file, with and without raw electrophysiological
-  data. Otherwise the two files are the same. \n\nEach NWB file contains: timestamps
-  of detected units, mean waveforms, LFP,  animal positionand head-direction,  sleep
-  scoring(REM/NREM), accelerometer data. \n\nMetadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing\n
+  epoch. \n\nEach NWB file contains: raw electrophysiological recording, downsampled
+  LFP,  timestamps of spike-sorted units, mean waveforms, animal position and head-direction,
+  sleep scoring(Wake/REM/NREM), accelerometer data. \n\nMetadata: https://docs.google.com/spreadsheets/d/1eGVMXkzyo25IOJHTyiNYFGhNO_7H4ZscUFfCBi31fYU/edit?usp=sharing\n
   \nData used in Duszkiewicz et al, 2024 (DOI:  ́10.1038/s41593-024-01588-5). Collected
   by Adrian J. Duszkiewicz and Sofia Skromne Carrascoin Peyrache lab. Additional adjustment
   of motion tracking data by Miao Wang, Sirota lab. \n\nOriginal version of the dataset
